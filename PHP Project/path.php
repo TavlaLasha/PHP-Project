@@ -1,6 +1,6 @@
 <?php
-    define(ROOT_PATH, realpath(dirname(__FILE__)));
-    define(BASE_URL, 'http://localhost:8081/PHP%20Project');
+    define("ROOT_PATH", realpath(dirname(__FILE__)));
+    define("BASE_URL", 'http://localhost:8080/PHP%20Project');
     function url(){
         // output: /myproject/index.php
         $currentPath = $_SERVER['PHP_SELF']; 

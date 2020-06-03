@@ -233,7 +233,7 @@ header nav ul .userinfo i.fa-chevron-down {
 
 .page-wrapper .posts-slider .next {
   position: absolute;
-  right: 60px;
+  right: 120px;
   top: 50%;
   z-index: 100;
   font-size: 2em;
@@ -243,7 +243,7 @@ header nav ul .userinfo i.fa-chevron-down {
 
 .page-wrapper .posts-slider .prev {
   position: absolute;
-  left: 60px;
+  left: 120px;
   top: 50%;
   z-index: 100;
   font-size: 2em;
@@ -253,7 +253,7 @@ header nav ul .userinfo i.fa-chevron-down {
 
 .page-wrapper .posts-slider .posts-wrapper {
   height: 350px;
-  width: 84%;
+  width: 60%;
   margin: 0px auto;
   overflow: hidden;
   padding: 5px;

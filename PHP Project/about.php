@@ -73,7 +73,7 @@
           <h2>Popular</h2>
           <?php foreach($posts as $p): ?>
             <div class="post clearfix">
-              <img src="Assets/images/image_1.png">
+              <img src="<?=BASE_URL.'/Assets/images/'. $p['image']; ?>">
               <a href="" class="title"><?=$p['title']; ?></a>
             </div>
           <?php endforeach; ?>

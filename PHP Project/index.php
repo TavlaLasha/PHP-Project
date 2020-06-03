@@ -77,7 +77,7 @@
         <h1 class="recent-posts-title"><?=$postsTitle; ?></h1>
         <?php foreach($posts as $post): ?>
         <div class="post clearfix">
-          <img src="Assets/images/image_1.png" class="post-image" alt="">
+          <img src="<?=BASE_URL.'/Assets/images/'. $post['image']; ?>" class="post-image" alt="">
           <div class="post-content">
             <h2 class="post-title"><a href="<?=url().'single.php?id='.$post['id']; ?>"><?=$post['title']; ?></a></h2>
             <div class="post-info">

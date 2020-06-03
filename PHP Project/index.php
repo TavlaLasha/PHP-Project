@@ -85,7 +85,7 @@
               &nbsp;
               <i class="fa fa-calendar"></i> <?=date('F j, Y', strtotime($post['created_at'])); ?>
             </div>
-            <p class="post-body"><?=html_entity_decode(substr($post['body'], 0, 150). '...'); ?>
+            <p class="post-body"><?=html_entity_decode(substr($post['body'], 0, 300). '...'); ?>
             </p>
             <a href="single.php?id=<?=$post['id']; ?>" class="read-more">Read More</a>
           </div>
@@ -93,6 +93,11 @@
         <?php endforeach; ?>
       </div>
       <div class="sidebar">
+        <div class="fb-page" data-href="https://www.facebook.com/bmwperformancecenter/"
+          data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/bmwperformancecenter/" class="fb-xfbml-parse-ignore"><a
+              href="https://www.facebook.com/bmwperformancecenter/">BMW Center</a></blockquote>
+        </div>
         <!-- Search -->
         <div class="search-div">
           <form action="index.php" method="post">
@@ -100,11 +105,6 @@
           </form>
         </div>
         <!-- // Search -->
-        <div class="fb-page" data-href="https://www.facebook.com/bmwperformancecenter/"
-          data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-          <blockquote cite="https://www.facebook.com/bmwperformancecenter/" class="fb-xfbml-parse-ignore"><a
-              href="https://www.facebook.com/bmwperformancecenter/">Piece of Advice</a></blockquote>
-        </div>
         <!-- topics -->
         <div class="section topics">
           <h2>Topics</h2>

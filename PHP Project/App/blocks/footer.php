@@ -10,14 +10,14 @@
 
         <div class="contact">
           <i class="fa fa-phone"> &nbsp; 123-456-789</i>
-          <i class="fa fa-envelope"> &nbsp; info@mywebsite.com</i>
+          <i class="fa fa-envelope"> &nbsp; lasha.tavlalashvili@gau.edu.ge</i>
         </div>
 
         <div class="social">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-youtube-play"></i></a>
+          <a href="https://www.facebook.com/lasha.tavlalshvili" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/_audio_therapy_/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://twitter.com/lasha99982" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCNdMZlo5idGbCiHQmYyrC5A" target="_blank"><i class="fa fa-youtube-play"></i></a>
         </div>
 
       </div>
@@ -25,14 +25,14 @@
       <div class="footer-section quick-links">
         <h2>QUICK LINKS</h2>
         <ul>
-          <a href="#">
-            <li>Events</li>
+          <a href="<?=url().'index.php'; ?>">
+            <li>Home</li>
           </a>
-          <a href="#">
+          <a href="<?=url().'contact.php'; ?>">
             <li>Contact</li>
           </a>
-          <a href="#">
-            <li>Mentors</li>
+          <a href="<?=url().'about.php'; ?>">
+            <li>About</li>
           </a>
           <a href="#">
             <li>Galleries</li>

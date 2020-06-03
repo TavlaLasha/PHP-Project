@@ -9,8 +9,8 @@
       <ul>
         <li><a href="<?=url().'index.php'; ?>">Home</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="<?=url().'contact.php'; ?>">Contact Us</a></li>
+        <li><a href="<?=url().'about.php'; ?>">About Us</a></li>
 
         <?php if(isset($_SESSION['id'])): ?>
           <li>

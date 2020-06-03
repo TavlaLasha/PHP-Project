@@ -233,7 +233,7 @@ header nav ul .userinfo i.fa-chevron-down {
 
 .page-wrapper .posts-slider .next {
   position: absolute;
-  right: 30px;
+  right: 60px;
   top: 50%;
   z-index: 100;
   font-size: 2em;
@@ -243,7 +243,7 @@ header nav ul .userinfo i.fa-chevron-down {
 
 .page-wrapper .posts-slider .prev {
   position: absolute;
-  left: 30px;
+  left: 60px;
   top: 50%;
   z-index: 100;
   font-size: 2em;
@@ -683,10 +683,10 @@ header nav ul .userinfo i.fa-chevron-down {
     margin: 10px auto;
   }
   .page-wrapper .posts-slider .next {
-    right: 10px;
+    right: 20px;
   }
   .page-wrapper .posts-slider .prev {
-    left: 10px;
+    left: 20px;
   }
   .auth-content {
     width: 80%;

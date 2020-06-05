@@ -222,7 +222,7 @@ header nav ul .userinfo i.fa-chevron-down {
 }
 
 .page-wrapper .posts-slider {
-  position: relative;
+  /* position: relative; */
   padding: 5px;
 }
 
@@ -552,7 +552,7 @@ header nav ul .userinfo i.fa-chevron-down {
   font-family: 'Lora', serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 940px) {
   .menu-toggle {
     display: block;
     width: 40px;

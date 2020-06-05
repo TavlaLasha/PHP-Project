@@ -2,6 +2,7 @@
   include "App/database/db.php";
   include "App/helpers/validateUser.php";
   include "App/controllers/users.php";
+  include "path.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
